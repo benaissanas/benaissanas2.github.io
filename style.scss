@@ -1,0 +1,418 @@
+
+
+
+
+
+
+#main-page{
+
+    width: 100%;
+  
+}
+.header{
+
+    background-color: #549c84;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    cursor: pointer;
+    
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -4px;
+            color: #FDD835;
+            text-align: center;
+            font-size: 70px;
+            margin-top: 0px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }  
+}
+
+.container1{
+
+    display: flex;
+    justify-content: center;
+ }
+
+.menu1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height: 400px;
+    background-color: #ffcdd2;
+    margin-right: 70px;
+    cursor: pointer;
+    font-family: 'Kalam', cursive;
+    box-shadow: 0px 0px 5px 5px rgb(242, 238, 237);
+
+    h2{
+        color: black;
+        font-weight: lighter;
+    }
+    p{
+        color: black;
+        font-size: 30px;
+    }
+  
+    a{
+        text-decoration: none;
+    }
+
+    .fa-music{
+        margin-left: 70px;
+        font-size: 40px;
+        background-image: linear-gradient(to right, red, rgb(241, 62, 62) 50%, orange 85%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+.menu2{
+    float: right;
+    width: 30%;
+    height: 400px;
+    cursor: pointer;
+    background-color:#f7ebf2;
+    box-shadow: 0px 0px 5px 5px rgb(242, 238, 237);
+
+     a{
+        text-decoration: none;
+    }
+    h2{
+
+        margin-top: 150px;
+        font-weight: lighter;
+        text-align: center;
+        background-image: linear-gradient(to right, orange, rgb(161, 92, 13) 20%, rgb(77, 13, 61));
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+    p{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(209, 130, 27);
+   
+    }
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.menu3{
+
+    width: 30%;
+    height: 400px;
+    background-color:#eef1f7;
+    cursor: pointer;
+    margin-right: 70px;
+    box-shadow: 0px 0px 5px 5px rgb(242, 238, 237);
+  
+
+    a{
+        text-decoration: none;
+    }
+    h2{
+        margin-top: 150px;
+        font-weight: lighter;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        background-image: linear-gradient(to right, rgb(12, 67, 239), rgb(175, 208, 234));
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+    p{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kalam', cursive;
+        color: rgb(57, 154, 232);
+    }
+}
+.menu4{
+
+    float: right;
+    width: 30%;
+    height: 400px;
+    cursor: pointer;
+    background-color:#e9f7eb;
+    box-shadow: 0px 0px 5px 5px rgb(242, 238, 237);
+
+    a{
+        text-decoration: none;
+    }
+    h2{
+        margin-top: 150px;
+        font-weight: lighter;
+        text-align: center;
+        font-family: 'Kaushan Script', cursive;
+        background-image: linear-gradient(to right, rgb(60, 121, 7), rgb(148, 218, 86) 60%, rgb(195, 242, 155));
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+    p{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kalam', cursive;
+        color: rgb(130, 191, 77);
+    }
+}
+
+#soon{
+
+    background-color: #549c84;
+    font-size: 32px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        color: #FDD835;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+.feet{
+
+    background-color: #549c84;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    
+
+     a{
+        color: #FDD835;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container3{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+/*menu la note enchantée*/
+
+a{
+    text-decoration: none;
+}
+.title_menu{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.menu_enchantée{
+
+    background-color: #ffcdd2;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 6px 6px rgb(185, 177, 176);
+
+    .fa-music{
+        margin-left: 550px;
+        margin-top: 40px;
+        font-size: 60px;
+        background-image: linear-gradient(to right, red, rgb(241, 62, 62) 50%, orange 85%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+
+    }
+    .title_enchantée{
+
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Kaushan Script', cursive;
+       
+    }
+    h3{
+
+        margin-top: 5px;
+    }
+    h4{
+
+        font-family: 'Kalam', cursive;
+        font-weight: lighter;
+        font-size: 40px;
+        text-align: center;
+    }
+    p{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        font-size: x-large;
+        margin-left: 180px;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .bottom_menu{
+
+        display: flex;
+        margin-bottom: 50px;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .bottom_i{
+
+        margin-left: -200px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+    }
+  
+}
+.container3{
+
+    background-color: #549c84;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        color: #FDD835;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+            
+}
+
+/*le chic à la française*/
+
+
+
+.chic{
+    
+    background-color: #f7ebf2;
+    margin-right: -9px;
+    margin-left: -7px;
+    margin-top: -47px;
+
+h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: lighter;
+        padding-top: 54px;
+        
+        margin-bottom: 50px;
+        background-image: linear-gradient(to right, orange , rgb(114, 17, 179) 80%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+    #appetizers{
+
+        color: rgb(241, 143, 24);
+
+        h3{
+            text-align: center;
+            font-size: 30px;
+            font-weight: lighter;
+            margin-bottom: 60px;
+        }
+        p{
+            letter-spacing: 3px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 80px;
+            font-size: x-large;
+            margin-left: 180px;
+    }
+   
+}
+#pleasure{
+
+    color: rgb(114, 17, 179);
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: 60px;
+    }
+    p{
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        font-size: x-large;
+        margin-left: 180px;
+}
+}
+#delicacies{
+
+    color: rgb(34, 40, 114);
+    margin-bottom: 100px;
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: 60px;
+    }
+    p{
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        font-size: x-large;
+        margin-left: 180px;
+}
+}
+}
+.container4{
+
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,456 @@
+@charset "UTF-8";
+#main-page {
+  width: 100%;
+}
+
+.header {
+  background-color: #549c84;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  cursor: pointer;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -4px;
+  color: #FDD835;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  height: 400px;
+  background-color: #ffcdd2;
+  margin-right: 70px;
+  cursor: pointer;
+  font-family: 'Kalam', cursive;
+  -webkit-box-shadow: 0px 0px 5px 5px #f2eeed;
+          box-shadow: 0px 0px 5px 5px #f2eeed;
+}
+
+.menu1 h2 {
+  color: black;
+  font-weight: lighter;
+}
+
+.menu1 p {
+  color: black;
+  font-size: 30px;
+}
+
+.menu1 a {
+  text-decoration: none;
+}
+
+.menu1 .fa-music {
+  margin-left: 70px;
+  font-size: 40px;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(50%, #f13e3e), color-stop(85%, orange));
+  background-image: linear-gradient(to right, red, #f13e3e 50%, orange 85%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu1 p {
+  text-align: center;
+}
+
+.menu2 {
+  float: right;
+  width: 30%;
+  height: 400px;
+  cursor: pointer;
+  background-color: #f7ebf2;
+  -webkit-box-shadow: 0px 0px 5px 5px #f2eeed;
+          box-shadow: 0px 0px 5px 5px #f2eeed;
+}
+
+.menu2 a {
+  text-decoration: none;
+}
+
+.menu2 h2 {
+  margin-top: 150px;
+  font-weight: lighter;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), color-stop(20%, #a15c0d), to(#4d0d3d));
+  background-image: linear-gradient(to right, orange, #a15c0d 20%, #4d0d3d);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu2 p {
+  text-align: center;
+  font-size: 30px;
+  color: #d1821b;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.menu3 {
+  width: 30%;
+  height: 400px;
+  background-color: #eef1f7;
+  cursor: pointer;
+  margin-right: 70px;
+  -webkit-box-shadow: 0px 0px 5px 5px #f2eeed;
+          box-shadow: 0px 0px 5px 5px #f2eeed;
+}
+
+.menu3 a {
+  text-decoration: none;
+}
+
+.menu3 h2 {
+  margin-top: 150px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0c43ef), to(#afd0ea));
+  background-image: linear-gradient(to right, #0c43ef, #afd0ea);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu3 p {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  color: #399ae8;
+}
+
+.menu4 {
+  float: right;
+  width: 30%;
+  height: 400px;
+  cursor: pointer;
+  background-color: #e9f7eb;
+  -webkit-box-shadow: 0px 0px 5px 5px #f2eeed;
+          box-shadow: 0px 0px 5px 5px #f2eeed;
+}
+
+.menu4 a {
+  text-decoration: none;
+}
+
+.menu4 h2 {
+  margin-top: 150px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3c7907), color-stop(60%, #94da56), to(#c3f29b));
+  background-image: linear-gradient(to right, #3c7907, #94da56 60%, #c3f29b);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu4 p {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  color: #82bf4d;
+}
+
+#soon {
+  background-color: #549c84;
+  font-size: 32px;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#soon a {
+  text-decoration: none;
+}
+
+#soon p {
+  color: #FDD835;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.feet {
+  background-color: #549c84;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.feet a {
+  color: #FDD835;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feet .container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*menu la note enchantée*/
+a {
+  text-decoration: none;
+}
+
+.title_menu {
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.menu_enchantée {
+  background-color: #ffcdd2;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 0px 6px 6px #b9b1b0;
+          box-shadow: 0px 0px 6px 6px #b9b1b0;
+}
+
+.menu_enchantée .fa-music {
+  margin-left: 550px;
+  margin-top: 40px;
+  font-size: 60px;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(50%, #f13e3e), color-stop(85%, orange));
+  background-image: linear-gradient(to right, red, #f13e3e 50%, orange 85%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu_enchantée .title_enchantée {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée h3 {
+  margin-top: 5px;
+}
+
+.menu_enchantée h4 {
+  font-family: 'Kalam', cursive;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+.menu_enchantée p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 80px;
+  font-size: x-large;
+  margin-left: 180px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée .bottom_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée .bottom_i {
+  margin-left: -200px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.container3 {
+  background-color: #549c84;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container3 a {
+  color: #FDD835;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*le chic à la française*/
+.chic {
+  background-color: #f7ebf2;
+  margin-right: -9px;
+  margin-left: -7px;
+  margin-top: -47px;
+}
+
+.chic h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-top: 54px;
+  margin-bottom: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), color-stop(80%, #7211b3));
+  background-image: linear-gradient(to right, orange, #7211b3 80%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.chic #appetizers {
+  color: #f18f18;
+}
+
+.chic #appetizers h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.chic #appetizers p {
+  letter-spacing: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 80px;
+  font-size: x-large;
+  margin-left: 180px;
+}
+
+.chic #pleasure {
+  color: #7211b3;
+}
+
+.chic #pleasure h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.chic #pleasure p {
+  letter-spacing: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 80px;
+  font-size: x-large;
+  margin-left: 180px;
+}
+
+.chic #delicacies {
+  color: #222872;
+  margin-bottom: 100px;
+}
+
+.chic #delicacies h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.chic #delicacies p {
+  letter-spacing: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 80px;
+  font-size: x-large;
+  margin-left: 180px;
+}
+
+.container4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
