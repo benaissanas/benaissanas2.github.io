@@ -1,0 +1,108 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.title_menu {
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.menu_enchantée {
+  background-color: #f7ebf2;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 0px 6px 6px #b9b1b0;
+          box-shadow: 0px 0px 6px 6px #b9b1b0;
+}
+
+.menu_enchantée .note {
+  text-align: -webkit-center;
+}
+
+.menu_enchantée .fa-music {
+  margin-top: 40px;
+  font-size: 60px;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(50%, #f13e3e), color-stop(85%, orange));
+  background-image: linear-gradient(to right, red, #f13e3e 50%, orange 85%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.menu_enchantée .title_enchantée {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée h3 {
+  margin-top: 5px;
+}
+
+.menu_enchantée h4 {
+  font-family: 'Kalam', cursive;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+.menu_enchantée p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 80px;
+  font-size: x-large;
+  margin-left: 180px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée .bottom_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.menu_enchantée .bottom_i {
+  /* margin-left: -200px;*/
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.container3 {
+  background-color: #549c84;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container3 a {
+  color: #FDD835;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=note.css.map */
